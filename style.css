@@ -1,0 +1,117 @@
+*{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+header {
+  background-size: 100%;
+  background-position: bottom;
+  background-image: url(img/le_foin.png);
+  background-repeat: no-repeat;
+  margin-bottom: 150px;
+}
+
+h1 span {
+  color: red;
+}
+
+h2 span {
+  text-decoration: underline;
+  color: red;
+}
+
+h3 span{
+  text-decoration: underline;
+}
+
+div.titre {
+  padding-top: 200px;
+}
+
+div.middle h4 {
+  font-size: medium;
+  color: red;
+  margin-top: 50px;
+}
+
+.middle h2 {
+  margin-bottom: 30px;
+}
+div.middle p {
+  font-size: small;
+}
+
+div.middle i {
+  text-indent: -30px;
+}
+
+footer{
+  background-color: rgb(185, 51, 51);
+  padding-top: 150px;
+}
+
+footer h4 {
+  margin-bottom: 50px;
+}
+
+
+footer h6 {
+  color: rgba(255, 255, 255, 0.726);
+}
+
+footer h6 span {
+  color: rgba(255, 255, 255, 0.726);
+  font-weight: bold;
+}
+
+footer span {
+  text-decoration: underline;
+}
+
+div.footer_p {
+  text-align: right;
+}
+
+div.footer_i {
+text-indent: 20px;
+font-size: 30px;
+}
+
+@media (max-width: 600px) {
+  div.middle i {
+    text-indent: 0px;
+    margin-right: 10px;
+  }
+}
+
+.bar1, .bar2, .bar3 {
+  width: 25px;
+  height: 5px;
+  background-color: black;
+  margin: 7px 0;
+}
+
+
+.burger{
+  font-size: 30px;
+  list-style: none;
+    position: fixed;
+  text-indent: 12px;
+  top: 3%;
+  right: 4%;
+  display: block;
+}
+
+ul.lebas{
+  font-size: 30px;
+  list-style: none;
+  position: fixed;
+  text-indent: 12px;
+  top: 8%;
+  right: 4%;
+  display: none;
+}
+
+.burger:hover + ul.lebas {
+  display: block;
+}
+
+
